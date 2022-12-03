@@ -16,7 +16,6 @@
 const priceList = [10.5, 9.9, 8.9, 4.5]; 
 
 // Add code here
-
 function calculatePayment() {
     let totalPrice = 0; 
     for (let i = 0; i < priceList.length; i++) {
@@ -43,7 +42,6 @@ function createQueue(fn) {
 }
 
 // Add code here - define the function that adds "start" and "last" to a given array
-
 function changeArray(queue) {
     queue.unshift("start"); 
     queue.push("last"); 
