@@ -13,22 +13,43 @@
     
 */
 
-const priceList = [10.5, 9.9, 8.9, 4.5];
+const priceList = [10.5, 9.9, 8.9, 4.5]; 
 
 // Add code here
+
+function calculatePayment() {
+    let totalPrice = 0; 
+    for (let i = 0; i < priceList.length; i++) {
+        totalPrice += priceList[i]; 
+    }
+    console.log("total price is", totalPrice); 
+    let payablePrice = 0; 
+    function GST() {
+        payablePrice = totalPrice * 1.07; 
+        return payablePrice; 
+    }
+    GST(); 
+    console.log("payable price is", payablePrice); 
+}
+calculatePayment(); 
 
 /*
     Task 2. Manipulate the "queue" array.
 */
 
 function createQueue(fn) {
-  const queue = [1, 2, 3, 4];
-
-  return fn(queue);
+    const queue = [1, 2, 3, 4]; 
+    return fn(queue); 
 }
 
 // Add code here - define the function that adds "start" and "last" to a given array
 
-const result = createQueue(); // Add code here - pass a reference of a function as an argument
+function changeArray(queue) {
+    queue.unshift("start"); 
+    queue.push("last"); 
+    return queue; 
+}
 
-console.log(result); // Expected output: ["start", 1, 2, 3, 4, "last"];
+const result = createQueue(changeArray); // Add code here - pass a reference of a function as an argument
+
+console.log(result); // Expected output: ["start", 1, 2, 3, 4, "last"]; 
