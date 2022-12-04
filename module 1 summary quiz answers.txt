@@ -1,0 +1,79 @@
+QUESTION 1
+What shell command is used to create files?
+• touch
+
+QUESTION 2
+What shell command is used to navigate through different directories?
+• cd
+
+QUESTION 3
+What git command is used to get the version installed in the machine?
+• git --version
+
+QUESTION 4
+What is the difference between cloning and forking?
+• Forking creates a copy of the remote repository from another remote repository, Cloning creates a local repository from a remote repository.
+
+QUESTION 5
+All browsers have Developer tools.
+• True
+
+QUESTION 6
+Which of the following can be used to open Chrome’s developer tool?
+• All of the above
+
+QUESTION 7
+What does IDE stand for?
+• Integrated development environment
+
+QUESTION 8
+Is Visual Studio Code an example of an IDE?
+• True
+
+QUESTION 9
+What is the tool for managing Node versions on devices?
+• nvm
+
+QUESTION 10
+What is the tool for managing packages for node projects?
+• npm
+
+QUESTION 11
+Which of the following statements is false?
+• Processes and Tools are as agile as human beings.
+
+QUESTION 12
+Which of the following is not an Agile framework?
+• None of the above
+
+QUESTION 13
+Which SCRUM event focuses on how the last Sprint went with regards to individuals, interactions, processes, tools, and their Definition of Done?
+• Sprint Retrospective
+
+QUESTION 14
+Which SCRUM event focuses on inspecting progress toward the Sprint Goal and adjusting the upcoming planned work as necessary?
+• Daily Scrum
+
+QUESTION 15
+Which member of the Scrum team is accountable for effective Product Backlog management?
+• Product Owner
+
+QUESTION 16
+Which member of the Scrum team is responsible for helping everyone understand Scrum theory and practice?
+• Scrum Master
+
+QUESTION 17
+What test deals with isolation testing of the smallest piece of logic?
+• Unit testing
+
+QUESTION 18
+What test deals with testing the changes to software if it affected previously working functionalities?
+• Regression testing
+
+QUESTION 19
+What test determines the peak load and/or how many requests can the system receive.
+• Stress testing
+
+QUESTION 20
+It is best practice to test in the production environment.
+• False
